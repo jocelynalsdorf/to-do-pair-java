@@ -1,5 +1,8 @@
 <h1>Success!</h1>
-
+#if ($task)
 Your task has been saved.
-
-<a href="/tasks">Go Back</a>
+#elseif ($category)
+Your category has been saved.
+<a href="/categories">View categories</a>
+#end
+s

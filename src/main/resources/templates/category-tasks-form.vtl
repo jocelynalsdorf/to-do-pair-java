@@ -1,0 +1,10 @@
+<h1>Add a Task to $category</h1>
+
+<form action="/tasks" method="post">
+	<input id="categoryId" name="categoryId" type="hidden" value="$category.getId()">
+	
+  <label for="description">Task Description</label>
+  <input id="description" name="description" type="text">
+
+  <button type="submit" class="btn btn-default">Add task</button>
+</form
